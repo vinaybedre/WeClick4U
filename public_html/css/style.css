@@ -1,0 +1,66 @@
+body {
+    font-family: Lato, 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: black;
+    color:white;
+}
+
+.homeimg{
+    margin-top: -40px;
+}
+
+.page-header h1{
+    font-weight: 300;
+    height: auto;
+    font-size: 80px;
+
+}
+.page-header{
+    padding: 60px;
+    color:white;
+    text-align: center;
+
+    background-attachment: fixed;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: url(../image/home_.jpg);
+    background-size: cover;
+}
+
+.page-header .life{
+    color:orange;
+    font-weight: 300;
+    font-size: 60px;
+}
+.page-header span{
+    font-weight: 100;
+    font-size: 36px;
+}
+.package{
+    padding: 80px 30px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.package span{
+    font-weight: 500;
+    font-size: 28px;
+
+}
+.package p{
+    font-weight: 200;
+    font-size: 16px;
+    width: auto;
+    height: auto;    
+}
+
+/*.sep {
+    background-attachment: fixed;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    height: 450px;
+    position: relative;
+}
+
+.homedrag {
+    background-image: url(../image/photography-.jpg);
+}*/
