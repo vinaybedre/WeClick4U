@@ -35,43 +35,138 @@ and open the template in the editor.
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#wedding">Wedding</a></li>
+                        <li><a href="#portrait">Portrait</a></li>
+                        <li><a href="#kids">Kids</a></li>
+                        <li><a href="#workshops">Workshop</a></li>
+                        <li><a href="#chkavailability">Check availability</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
 
-        <div class="page-header" data-stellar-background-ratio="0.4">
-            <h1>Want to save your</h1>
-            <h1 class="life">unforgettable moments of life?</h1>
+        <div class="page-header" data-stellar-background-ratio="0.4" id="home">
+            <h1>Creative. Unbelievable. Best.</h1>
+            <h1 class="life">Photographer in town</h1>
             <br />
             <br />
             <br />
-            <span>We've got the solution for you.</span>
+            <span>Talk to us</span>
             <br />
             <br />
-            <button type="button" class="btn btn-warning btn-lg">Call us</button>
+            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#booknow">Book now</button>
         </div>
 
-        <!-- Cost effectiveness -->
-        <div class="row package">
-            <div class="col-md-3"></div>
-            <div class="col-md-3">
-                <span>
-                    Good things do fit in small pockets
+
+        <!-- Wedding Photography -->
+        <div class="row feature" id="wedding">
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <span class="featureHeading">
+                    Wedding Photography
                 </span>
-                <br />
-                <p>For any occasions of life, call us for photography and we will ensure we wont be huge on your pockets. You get maximum value for money.</p>
+                <br /><br />
+                <p class="featureSText">Your D day of life with our perfect shots. One of the most important moments in everyone’s life is Wedding and the only way to relive the memories are through photographs. And we ensure that your memories are as fresh and colourful as our photographs.
+                </p>
             </div>
-            <div class="col-md-3"><img src="image/photography-.jpg" class="img-responsive img-thumbnail" /></div>
+            <div class="col-md-4"><img src="image/weddingPhotography.jpg" class="img-responsive img-thumbnail" /></div>
+            <div class="col-md-2"></div>
         </div>
 
-        <div class="costeffective" data-stellar-background-ratio="0.4">
-            
-            
+        <div class="parallax" style="background-image: url(image/weddingPhotography.jpg);" data-stellar-background-ratio="0.4">
         </div>
 
+        <!-- Portrait effectiveness -->
+        <div class="row feature" id="portrait">
+            <div class="col-md-2"></div>
+            <div class="col-md-4"><img src="image/portraitPhotography.jpg" class="img-responsive img-thumbnail" /></div>
+            <div class="col-md-4">
+                <span class="featureHeading">
+                    Portrait Photography
+                </span>
+                <br /><br />
+                <p class="featureSText">You will never know how nice you look with our lens. Portrait photography is an art and we know how to make it come live. </p>
+            </div>
+
+            <div class="col-md-2"></div>
+        </div>
+
+        <div class="parallax" style="background-image: url(image/portraitPhotography.jpg);" data-stellar-background-ratio="0.4">
+        </div>
+
+        <!-- Kids effectiveness -->
+        <div class="row feature" id="kids">
+            <div class="col-md-2"></div>
+            <div class="col-md-4">
+                <span class="featureHeading">
+                    Kids Photography
+                </span>
+                <br /><br />
+                <p class="featureSText">Kids are the best part of our life. Their laugh, their innocence nothing can replace it and we know exactly on how to capture such unique moments so that you can cherish together. </p>
+            </div>
+            <div class="col-md-4"><img src="image/kidsPhotography.jpg" class="img-responsive img-thumbnail" /></div>
+            <div class="col-md-2"></div>
+        </div>
+
+        <div class="parallax" style="background-image: url(image/kidsPhotography.jpg);" data-stellar-background-ratio="0.4">
+        </div>
+
+        <!-- Workshot -->
+        <div class="row feature" id="workshops">
+            <div class="col-md-2"></div>
+            <div class="col-md-4"><img src="image/workshop.jpg" class="img-responsive img-thumbnail" /></div>
+            <div class="col-md-4">
+                <span class="featureHeading">
+                    Photography Workshop
+                </span>
+                <br /><br />
+                <p class="featureSText">We are also experts at making good photographers. Call for scheduling of photography classes. </p>
+            </div>
+
+            <div class="col-md-2"></div>
+        </div>
+
+        <div class="parallax" style="background-image: url(image/workshop.jpg);" data-stellar-background-ratio="0.4">
+        </div>
+
+
+        <div class="calendar" id="chkavailability">
+            <h2>Check availablity</h2>
+            <iframe src="http://www.google.com/calendar/embed?src=weclick4you%40gmail.com&ctz=Asia/Calcutta&mode=WEEK&wkst=1" style="border: 0" width="800" height="400" frameborder="0" scrolling="no"></iframe>    
+        </div>
+
+        <div class="footer">
+            <button type="button" class="btn btn-warning btn-lg" data-toggle="modal" data-target="#booknow">Book now</button>
+            <br /><br />
+            <h3>WeClick4U Inc © 2014</h3>
+            Website designed by Vinay Bedre
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade booknow" id="booknow" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Book now</h4>
+                    </div>
+                    <div class="modal-body">
+                        <span class="glyphicon glyphicon-earphone"></span> Call us 
+                        <br />
+                        +91 - 9844783779 <br /> +91 - 9738748917 <br /><br />
+                        <span class="glyphicon glyphicon-envelope"></span> Mail us 
+                        <br />
+                        weclick4you@gmail.com
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -81,12 +176,31 @@ and open the template in the editor.
         <script src="js/libs/jquery/backstretch.js"></script>
         <script src="js/libs/jquery/jquery.stellar.min.js"></script>
 
+
         <script>
             //$(".page-header").backstretch("image/home_.jpg");
             $.stellar({
                 horizontalScrolling: false,
                 verticalOffset: 40
             });
+
+            $(function() {
+                $('a[href*=#]:not([href=#])').click(function() {
+                    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        if (target.length) {
+                            $('html,body').animate({
+                                scrollTop: target.offset().top
+                            }, 1000);
+                            return false;
+                        }
+                    }
+                });
+            });
+
+
+
         </script>
 
     </body>
